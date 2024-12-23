@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90vw;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.571);
+}
+.nav .category-country p, .pipe{
+    color: black;
+
+}
+.nav .opts{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+   
+}
+.hero img{
+    width: 100%;
+}
+.shop-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:bisque;
+    width: 90vw;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.shop-cat .imgs{
+    display: flex;
+    justify-content: center;
+}
+.shop-cat .imgs img{
+    width: 250px;
+    margin: 0px 10px;
+}
+.imgs .card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.shedule{
+    width: 90vw;
+    height: 90vh;
+    background-image:linear-gradient(to top left,rgba(0,0,0,0.5),rgba(0, 0, 0, 0)), url(./Assets/Images/Footer-img.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+}
+.shedule .title{
+    font-size: 45px;
+}
+.shedule .content{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.shedule .content .title,p{
+    color: #fff;
+}
+
+.shedule .content button{
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .6s;
+    border-radius: 3px;
+}
+.shedule .content button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
