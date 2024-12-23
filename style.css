@@ -104,3 +104,41 @@
     color: #fff;
     background-color: transparent;
 }
+
+
+.sec{
+    height: 100vh;
+    /* background-color: rgba(100, 100, 255, 0); */
+
+    /* background: linear-gradient(red,rgb(77, 218, 77),rgb(92, 172, 229)); */
+    /* background-image: linear-gradient(to bottom right,orange,white,green); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.763),rgba(0, 0, 0, 0.452)), url(https://cdn.pixabay.com/photo/2023/09/26/20/05/tomatoes-8278168_1280.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec-title{
+
+    font-size: 100px;
+    text-align: center;
+}
+.sec p{
+    width: 75%;
+}
+.sec button{
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid transparent;
+    color: black;
+    width: 120px;
+    cursor: pointer;
+}
+
+.sec button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
